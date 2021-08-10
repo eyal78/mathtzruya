@@ -1,0 +1,91 @@
+body
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, helvetica, sans-serif;
+    text-align:center;
+}
+a
+{
+    text-decoration:none;
+}
+#header
+{
+    border: 1px solid white;
+	border-radius: 30px;
+	width: 99.8%;
+	height: 23%;
+    background-color: #00ffff;
+    
+}
+#header2
+{
+    border: 1px solid #00ffff;
+	border-radius: 30px;
+	width: 99.6%;
+	height: 40%;
+    float: left; 
+    background-color: #00ffff;
+}
+#nav
+{
+    border: 1px solid #00ffff;
+	border-radius: 30px;
+	width: 12.525%;
+	height: 65%;
+    float: right;
+}
+#article
+{
+    border: 1px solid #00ffff;
+	border-radius: 30px;
+	width: 75%;
+	height: 65%;
+    float: right;
+}
+#aside
+{
+    border: 1px solid #00ffff;
+	border-radius: 30px;
+	width: 12%;
+	height: 65%;
+    float: left;
+}
+#footer
+{
+    border: 1px solid #00ffff;
+	border-radius: 30px;
+	width:99.8%; 
+	height: 11%;
+    float: left;
+}
+#link
+{
+    margin: 25px;
+    border: 1px solid white;
+	border-radius: 30px;
+	width:20%; 
+	height: 20%;
+    float: left;
+}
+.header1
+{
+    border: 1px solid white;
+	border-radius: 0px;
+	width: 33.16%;
+	height: 98%;
+    float: left;
+    background-color: white;
+}
+.category
+{
+    border: 1px solid #00bfff;
+	border-radius: 30px;
+	width: 12%;
+	height: 43%;
+    float: left;
+    margin: 10px;
+    margin-left: 72px;
+    background-color: whitesmoke;
+}
+

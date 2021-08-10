@@ -1,0 +1,115 @@
+</html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="../css/style1.css">
+        <script src="../script/1.js"></script>
+        <title>תרגילי חיסור</title>
+    </head> 
+    <body onload="init()">
+        <div id="header">
+            <div class="p1"><img src="../../images/TZRUYA.png" width="120px" height="95px"></div>
+            <div class="p1"><h2>תרגילי חיסור - המחוסר מסתיים ב-0</h2></div>
+            <div class="p1">ב"ה</div>
+        </div>
+        <div id="nav">
+
+        </div>
+        <div id="article">
+            <form>
+                 <div class="p3a">
+                    <div class="p3b">
+                       <div class="p3c"><button type="button" onclick="detailHundred()">פרוט מאה אחת לעשרות</button><button type="button" onclick="detailTen()">פרוט עשרת אחת לאחדות</button></div>
+                       <div class="p3d">
+                           <div class="p3d2"></div>
+                           <div class="p3d1"><img id="single1" src="../../images/hundreds.png" width="27px" height="50px"></div>
+                           <div class="p3d1"><img id="single1" src="../../images/dozens.png" width="27px" height="50px"></div> 
+                           <div class="p3d1"><img id="single1" src="../../images/unity.png" width="27px" height="50px"></div>
+                           <div class="p3d2"></div>
+                       </div>             
+                       <div class="p3e"><img id="one1" src="../../images/one.png"  width="18px" height="18px"><img id="ziro1" src="../../images/ziro.png" width="18px" height="18px"><img id="ziro2" src="../../images/ziro.png" width="18px" height="18px"></div>
+                       <div class="p3f"><img id="subtraction" src="../../images/subtraction.png" width="20px" height="20px"></div>         
+                       <div class="p3g"><img id="two1" src="../../images/two.png" width="20px" height="20px"><img id="ziro3" src="../../images/ziro.png" width="20px" height="20px"></div>
+                       <div class="p3h">
+                           <div class="p3h2"></div>
+                           <div class="p3h1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                           </div><div class="p3h1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                           <div class="p3h2"></div>
+                       </div>
+                       <div class="p3i">
+                           <div class="p3i1"><input type="reset" value="נסה שוב"></input></div>
+                           <div class="p3i1"><button type="button" onclick="f1()">בדוק</button></div>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="p3a">
+                     <div class="p3b">
+                        <input type="text" id="four"  size="1">
+                     </div>
+                     <div class="p3b">
+                        <input type="text" id="five"  size="1">
+                     </div>
+                 </div>
+                 <div class="p3a">
+                     <div class="p3b">
+                        <input type="text" id="seven"  size="1">
+                     </div>
+                     <div class="p3b">
+                        <input type="text" id="eight"  size="1">
+                     </div>
+                 </div>
+                 <div class="p3a">
+                    <div class="p3b">
+                        <div class="p3c"><button type="button" onclick="detailHundred()">פרוט מאה אחת לעשרות</button><button type="button" onclick="detailTen()">פרוט עשרת אחת לאחדות</button></div>
+                        <div class="p3d"><img id="one1" src="../../images/one.png"  width="18px" height="18px"><img id="ziro1" src="../../images/ziro.png" width="18px" height="18px"><img id="ziro2" src="../../images/ziro.png" width="18px" height="18px"></div>
+                        <div class="p3e"><img id="subtraction" src="../../images/subtraction.png" width="20px" height="20px"></div>
+                        <div class="p3f"><img id="two1" src="../../images/two.png" width="20px" height="20px"><img id="ziro3" src="../../images/ziro.png" width="20px" height="20px"></div>
+                        <div class="p3g">
+                           <div class="p3g2"></div>
+                           <div class="p3g1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                           </div><div class="p3g1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+                           <div class="p3g2"></div>
+                        </div>
+                        <div class="p3h"><button type="button" onclick="f1()">בדוק</div>
+                    </div>
+                    <div class="p3b">
+                        <div class="p3c"><input type="text"><input type="text"></div>
+                        <div class="p3d">100</div>
+                        <div class="p3e">-</div>
+                        <div class="p3f"><u>25</u></div>
+                        <div class="p3g"><input type="text" id="one"><input type="text" id="two"></div>
+                        <div class="p3h"><button type="button" onclick="f1()">בדוק</button></div>
+                    </div>
+                 </div>
+             </form>
+         </div>
+        <div id="asize">
+            <div class="p4a">
+                <p>גרור את</p>
+                <p>המספרים המופיעים למטה</p>
+                <p>אל מקומם הנכון</p>
+                <p>בתרגילים מצד ימין</p>
+            </div>
+            <div class="p4a">
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+                <div class="p4b"><img id="one_drag" src="../../images/result1.png" draggable="true" ondragstart="drag(event)" width="21px" height="33px"></div>
+            </div>
+        </div>
+        <div id="footer">
+            <div class="p5"><a href="">צור קשר</a></div>
+            <div class="p5"><a href=""></a></div>
+            <div class="p5"><a href=""></a></div>
+            <div class="p5"><a href=""></a></div>
+            <div class="p5"><a href=""></a></div>
+        </div>
+    </body>   
+</html>
