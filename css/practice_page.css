@@ -72,6 +72,15 @@ footer
 	float: left;
 	
 }
+.header1
+{
+    border: 1px solid white;
+	border-radius: 0px;
+	width: 33.16%;
+	height: 98%;
+    float: left;
+   
+}
 .p1
 {
 	padding: 2px;
