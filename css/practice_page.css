@@ -72,7 +72,7 @@ footer
 	float: left;
 	
 }
-.header1
+.sub_header
 {
     border: 1px solid white;
 	border-radius: 0px;
@@ -81,144 +81,11 @@ footer
     float: left;
    
 }
-.p1
-{
-	padding: 2px;
-	height:90%;
-	width:33%;
-	float: left;
-}
-.p3a
+.subFooter
 {
 	border: 1px solid white;
 	border-radius: 0px;
-	width: 24.8%;
-	height: 99.8%;
-	float: left;
-}
-.p3b
-{
-	border: 1px solid black;
-	border-radius: 0px;
-	width: 99.4%;
-	height: 49.5%;
-}
-.p3c
-{
-	border:0px solid #56B4E9;
-	border-radius: 0px;
-	width: 100%;
-	height: 15%;
-	padding-top: 2px;
-}
-.p3d
-{
-	border:0px solid #56B4E9;
-	border-radius: 0px;
-	width: 100%;
-	height:22%;
-}
-.p3d1
-{
-	border:0px solid  #56B4E9 ;
-	border-radius: 0px;
-	width: 7.3%;
-	height:97%;
-	float: left;
-}
-.p3d2
-{
-	border:0px solid  #56B4E9 ;
-	border-radius: 0px;
-	width: 34%;
-	height:97%;
-	float: left;
-}
-.p3e
-{
-    border: 0px solid #56B4E9;
-	border-radius: 0px;
-	width: 93%;
-	height:11%;
-	
-}
-.p3f
-{
-	border: 0px solid #56B4E9;
-	border-radius: 0px;
-	width:67%;
-	height: 11%;
-}
-.p3g
-{
-	border:0px solid #56B4E9;
-	border-radius: 0px;
-	width: 100%;
-	height:11%;
-}
-.p3h
-{
-	border: 0px solid#56B4E9;
-	border-radius: 0px;
-	width: 100%;
-	height: 15%;
-	
-}
-.p3h1
-{
-	border: 1.5px solid #56B4E9;
-	border-radius: 0px;
-	width: 7.7%;
-	height: 90%;
-	float: left;
-}
-.p3h2
-{
-	border: 0px solid #56B4E9;
-	border-radius: 0px;
-	width: 41%;
-	height: 90%;
-	float: left;
-}
-.p3i
-{
-	border: 0px solid #56B4E9;
-	border-radius: 0px;
-	width: 100%;
-	height: 13%;
-	padding-top: 2px;
-}
-.p3i1
-{
-	border: 1px solid #56B4E9;
-	border-radius: 0px;
-	width: 33%;
-	height: 90%;
-	padding-top: 2px;
-	float: left;
-}
-.p4a
-{
-	border: 0px solid white;
-	border-radius: 0px;
-	width: 100%;
-	height: 50%;
-	float: left;
-}
-.p4b
-{
-	border: 1px solid white;
-	border-radius: 0px;
-	background-color: rgb(112, 177, 202);
-	width: 23.2%;
-	height: 21.5%;
-	float: left;
-	padding-top: 15px;
-}
-.p5
-{
-	padding: 8px;
-	height:50%;
-	width:17%;
-	float: left;
+	width: 24.85%;
+	height: 95%;
+    float: left;
 }
