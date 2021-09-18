@@ -81,6 +81,14 @@ footer
     float: left;
    
 }
+.sub_article
+{
+	border: 1px solid white;
+	border-radius: 0px;
+	width: 20%;
+	height: 20%;
+    float: left;
+}
 .subFooter
 {
 	border: 1px solid white;
