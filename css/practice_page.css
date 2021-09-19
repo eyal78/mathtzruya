@@ -11,6 +11,10 @@ a
 {
 	text-decoration: none;
 }
+img
+{
+	margin-top: 10px;
+}
 button
 {
 	border: 1px solid white;
