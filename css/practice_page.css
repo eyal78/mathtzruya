@@ -4,7 +4,7 @@ body
     padding: 0px;
     font-family:Arial, helvetica, sans-serif;
     text-align:center;
-	background-color:rgb(72, 138, 143); 
+	background-color:white; 
 	font-size: 20px;
 }
 a
@@ -50,7 +50,7 @@ article
 	border-radius: 0px;
 	width: 1400px;
 	height: 550px;
-	background-color:rgb(190, 61, 61);
+	background-color:white;
 	float: right;
 }
 aside
@@ -85,7 +85,7 @@ footer
 {
 	border: 1px solid black;
 	border-radius: 0px;
-	width: 130px;
+	width: 137px;
 	height: 110px;
     float: left;
 }
@@ -93,9 +93,10 @@ footer
 {
 	border: 1px solid black;
 	border-radius: 0px;
-	width: 1390px;
-	height: 80px;
-    float: left;	
+	width: 1388px;
+	height: 60px;
+    float: left;
+	padding-top: 40px;	
 }
 .subFooter
 {
