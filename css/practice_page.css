@@ -35,7 +35,7 @@ header
     border: 0px solid rgb(32, 4, 4);
 	border-radius: 0px;
 	width: 1535px;
-	height: 80px;
+	height: 120px;
 	background-color: rgba(20, 150, 224, 0.719);
 	
 }
@@ -44,7 +44,7 @@ nav
     border: 0px solid black;
 	border-radius: 0px;
 	width: 62px;
-	height: 530px;
+	height: 550px;
 	background-color: rgba(20, 150, 224, 0.719);
 	float: right;
 }
@@ -53,7 +53,7 @@ article
     border: 0px solid black;
 	border-radius: 0px;
 	width: 1400px;
-	height: 540px;
+	height: 550px;
 	background-color:white;
 	float: right;
 }
@@ -62,7 +62,7 @@ aside
     border: 0px solid white;
 	border-radius: 0px;
 	width: 62px;
-	height: 530px;
+	height: 550px;
 	background-color:rgba(20, 150, 224, 0.719);
 	float: left;
 }
