@@ -78,10 +78,10 @@ footer
 }
 .sub_header
 {
-    border: 0px solid white;
+    border: 1px solid white;
 	border-radius: 0px;
-	width: 33.16%;
-	height: 98%;
+	width: 505px;
+	height: 119px;
     float: left;
    
 }
