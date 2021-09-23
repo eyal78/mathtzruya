@@ -102,6 +102,14 @@ footer
     float: left;
 	padding-top: 40px;	
 }
+.sub_article3
+{
+	border: 1px solid black;
+	border-radius: 0px;
+	width: 30px;
+	height: 30px;
+    float: right;
+}
 .subFooter
 {
 	border: 0px solid white;
