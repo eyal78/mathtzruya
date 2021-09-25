@@ -15,3 +15,7 @@
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
   }
+  function one()
+  {
+    
+  }
