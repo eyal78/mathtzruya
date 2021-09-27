@@ -19,9 +19,10 @@ button
 {
 	border: 1px solid white;
 	border-radius: 10px;
-	font-size: 10px;
+	font-size: 11px;
 	background-color: 56B4E9;
-	height: 20px;
+	height: 25px;
+	width: 40px;
 	cursor: pointer;
 }
 p

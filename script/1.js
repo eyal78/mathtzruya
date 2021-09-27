@@ -17,8 +17,8 @@
   }
   function one()
   {
-    if(document.getElementById("lo_one").innerHTML=="1")
-      document.getElementById("lo_one").innerHTML=2;
+    if(document.getElementById("lo_one").innerHTML=="1.png")
+      document.getElementById("re_one").innerHTML=2;
     else
-    document.getElementById("lo_one").innerHTML=3;
+    document.getElementById("re_one").innerHTML=3;
   }
