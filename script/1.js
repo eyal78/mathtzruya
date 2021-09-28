@@ -17,8 +17,8 @@
   }
   function one()
   {
-    if(document.getElementById("lo_one").innerHTML=="1.png")
-      document.getElementById("re_one").innerHTML=2;
+    if(document.getElementById("lo_one").src=="../images/one.png")
+      document.getElementById("re_one").src='../images/good.png';
     else
-    document.getElementById("re_one").innerHTML=3;
+     document.getElementById("re_one").src='../images/unity.png';
   }
