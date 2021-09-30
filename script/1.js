@@ -17,8 +17,9 @@
   }
   function one()
   {
-    var x=document.getElementById("one").innerHTML;
-    if(y==document.getElementById("one").src)
+    var x=document.getElementById("one").;
+    window.alert(x);
+    if(x.src=="1.png")
       document.getElementById("re_one").src='../images/good.png';
     else
      document.getElementById("re_one").src='../images/unity.png';
