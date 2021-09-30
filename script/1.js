@@ -17,7 +17,7 @@
   }
   function one()
   {
-    if(document.getElementById("lo_one").src=="../images/one.png")
+    if(document.getElementById("lo_one").innerHTML==document.getElementById("one").src)
       document.getElementById("re_one").src='../images/good.png';
     else
      document.getElementById("re_one").src='../images/unity.png';
