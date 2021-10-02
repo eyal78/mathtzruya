@@ -17,10 +17,10 @@
   }
   function one()
   {
-    var x=document.getElementById("one").;
+    var x=document.getElementById("one");
     window.alert(x);
-    if(x.src=="1.png")
+    if(x==1)
       document.getElementById("re_one").src='../images/good.png';
     else
-     document.getElementById("re_one").src='../images/unity.png';
+      document.getElementById("re_one").src='../images/unity.png';
   }
