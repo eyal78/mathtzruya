@@ -19,7 +19,6 @@
   {
     var x=document.getElementById("one");
     window.alert(x);
-    two.innerHTML="j.s"
     if(x==1)
       document.getElementById("re_one").src='../images/good.png';
     else
