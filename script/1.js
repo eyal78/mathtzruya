@@ -19,6 +19,7 @@
   {
     var x=document.getElementById("one");
     window.alert(x);
+    document.getElementById("two").innerHTML="welcome";
     if(x==1)
       document.getElementById("re_one").src='../images/good.png';
     else
