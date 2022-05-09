@@ -17,6 +17,14 @@
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
+    if(ev.target.id=="div1")
+    {
+    alert(data+" "+ev.target.id);
+    }
+    else
+    {
+     alert("I want the revert to happen here")
+    } 
   }
   function one()
   {
