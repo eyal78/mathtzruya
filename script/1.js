@@ -19,7 +19,7 @@
     ev.target.appendChild(document.getElementById(data));
     if(ev.target.id=="lo_one")
     {
-      document.getElementById("re_one").src='../images/good.png';
+      document.getElementById("lo_one").src='../images/good.png';
     }
     else
     {
