@@ -17,9 +17,9 @@
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
-    if(ev.target.id=="div1")
+    if(ev.target.id=="lo_one")
     {
-    alert(data+" "+ev.target.id);
+      document.getElementById("re_one").src='../images/good.png';
     }
     else
     {
