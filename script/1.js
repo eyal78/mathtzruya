@@ -9,7 +9,7 @@
     ev.target.appendChild(document.getElementById(data));
     if(ev.target.id=="lo_one")
     {
-      document.getElementById("one").src='../images/1.png';
+      document.getElementById("lo_one").innerHTML = "good"
     }
     else
     {
