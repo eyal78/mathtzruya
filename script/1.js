@@ -2,30 +2,30 @@
  {
 
  }
- function allowDrop(ev)
- {
-    ev.preventDefault();
- }
-  
-  function drag(ev) 
-  {
-    ev.dataTransfer.setData("text", ev.target.id);
-  }
-  
-  function drop(ev) 
+ function drop(ev) 
   {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
     if(ev.target.id=="lo_one")
     {
-      document.getElementById("one").src='../images/good.png';
+      document.getElementById("one").src='../images/1.png';
     }
     else
     {
-     alert("I want the revert to happen here")
+     alert("I want the revert to happen here");
     } 
   }
+ function allowDrop(ev)
+  {
+    ev.preventDefault();
+  }
+  
+  function drag(ev) 
+  {
+    ev.dataTransfer.setData("text", ev.target.id);
+  }
+  
   function one()
   {
     var x=document.getElementById("one");
