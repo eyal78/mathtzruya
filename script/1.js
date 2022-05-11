@@ -13,7 +13,7 @@
     }
     else
     {
-     alert("I want the revert to happen here");
+      ev.target.id=
     } 
   }
  function allowDrop(ev)
