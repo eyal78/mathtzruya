@@ -7,7 +7,7 @@
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
-    if(ev.target.id=="lo_one")
+    if(ev.target.id=="one_layer")
     {
       document.getElementById("one").src = "../images/good.png"
     }
