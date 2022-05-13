@@ -2,22 +2,30 @@
  {
 
  }
- function allowDrop(ev)
- {
+ function drop(ev) 
+  {
     ev.preventDefault();
- }
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+    if(ev.target.id=="one_layer")
+    {
+      document.getElementById("one").src = "../images/good.png"
+    }
+    else
+    {
+      ev.target.id="one1"
+    } 
+  }
+ function allowDrop(ev)
+  {
+    ev.preventDefault();
+  }
   
   function drag(ev) 
   {
     ev.dataTransfer.setData("text", ev.target.id);
   }
   
-  function drop(ev) 
-  {
-    ev.preventDefault();
-    var data = ev.dataTransfer.getData("text");
-    ev.target.appendChild(document.getElementById(data));
-  }
   function one()
   {
     var x=document.getElementById("one");
