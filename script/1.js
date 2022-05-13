@@ -13,7 +13,7 @@
     }
     else
     {
-      ev.target.id=
+      ev.target.id="one1"
     } 
   }
  function allowDrop(ev)
