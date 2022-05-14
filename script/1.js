@@ -1,7 +1,7 @@
  function init()
- {
+  {
 
- }
+  }
  function drop(ev) 
   {
     ev.preventDefault();
@@ -13,7 +13,7 @@
     }
     else
     {
-      ev.target.id="one1"
+      if()
     } 
   }
  function allowDrop(ev)
