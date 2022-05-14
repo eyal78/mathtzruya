@@ -13,7 +13,7 @@
     }
     else
     {
-      if()
+      
     } 
   }
  function allowDrop(ev)
