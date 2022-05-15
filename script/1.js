@@ -10,20 +10,19 @@
     if(ev.target.id=="one_layer")
     {
       document.getElementById("one").src = "../images/good.png"
+      ev.innerHTML="oops!"
     }
     else
-    {
-      
-    } 
+      alert("hello!")
   }
  function allowDrop(ev)
   {
-    ev.preventDefault();
+    ev.preventDefault();    
   }
   
-  function drag(ev) 
+ function drag(ev) 
   {
-    ev.dataTransfer.setData("text", ev.target.id);
+    ev.dataTransfer.setData("text", ev.target.id);   
   }
   
   function one()
