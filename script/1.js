@@ -1,9 +1,9 @@
  function init()
-  {
+ {
 
-  }
+ }
  function drop(ev) 
-  {
+ {
     ev.preventDefault();
     var data = ev.dataTransfer.getData("text");
     ev.target.appendChild(document.getElementById(data));
@@ -14,19 +14,19 @@
      }
     else
       alert("hello!")
-  }
+ }
  function allowDrop(ev)
-  {
+ {
     ev.preventDefault();    
-  }
+ }
   
  function drag(ev) 
-  {
+ {
     ev.dataTransfer.setData("text", ev.target.id);   
-  }
+ }
   
-  function one()
-  {
+ function one()
+ {
     var x=document.getElementById("one");
     window.alert(x);
     document.getElementById("two").innerHTML="welcome";
@@ -34,4 +34,4 @@
       document.getElementById("re_one").src='../images/good.png';
     else
       document.getElementById("re_one").src='../images/unity.png';
-  }
+ }
